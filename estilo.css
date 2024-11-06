@@ -419,7 +419,7 @@ display: block;
   background-image: url(img/formulario\ fondo.jpg);
   position: relative;
   z-index: 2;
-  
+  opacity: .9;
   }
 /* pagina grafico */
   .graficos1 {
