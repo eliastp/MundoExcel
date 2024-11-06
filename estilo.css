@@ -1,0 +1,509 @@
+
+/* parte general de las paginas */
+#inicio {
+    min-height:     100vh;
+    position: relative;
+
+}
+video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+
+
+/* encabezado de las paginas */
+
+
+.logo {
+   
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    position: relative;
+    z-index: 2;
+
+    }
+    
+.titulo {
+    font-size: 30px;
+    color:  rgb(240, 245, 242);
+    font-weight: 700;
+
+
+
+}    
+   
+.imglogo {
+    width: 80px;       
+       
+    }
+
+
+  /* Menu de las paginas */
+
+  .menu1 {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    opacity: .9;
+    
+
+    }
+
+.menu {
+    margin: auto;
+   
+    
+    
+}
+ul, ol {
+    list-style: none;
+}
+.lista1 li a {
+    background-color:rgb(2, 117, 60);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block; 
+    
+
+}
+
+.lista1 > li  {
+    float: left;  
+     
+}
+
+.lista1 li  a:hover {
+    background-color:rgb(184, 235, 161);
+    color: black;
+    padding: 10px 20px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.lista1 li ul {
+    display: none;
+    
+    min-width: 10%;
+    z-index:3;
+    position: absolute;
+    
+}
+.lista1 li:hover > ul {
+display: block;
+}
+
+
+
+
+
+/* Piez de paginas */
+
+
+.piez1{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+   
+   
+}
+
+.piez{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .5;
+   
+}
+.imgpiez {
+    width: 50%;
+   
+    justify-content: right;
+}
+
+
+.redes1 {
+    width: 30px
+    
+
+}
+.redes2 {
+    width: 30px
+ 
+
+}
+
+
+/* pagina inicio */
+
+
+.seccion-1 {
+    clear: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+    z-index: 2;
+        
+}
+
+/* pagina prueba dignotico */
+.Diagnotico { 
+    position: relative;
+    z-index: 2;
+
+}
+
+
+/* paginas concepto y vocabulario */
+
+.vocabulario {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+.concepto1 {
+    color: rgb(1, 19, 8);
+    border: dotted;
+    border-width: 5px;
+    border-radius: 10px 100px / 120px;
+    background-clip: border-box;
+    background: rgb(193, 238, 197);
+    opacity: .5;
+    width: 500px;
+    display: flex;
+    justify-content: center; 
+    
+}
+.conceptos1 {
+    position: relative;
+    z-index: 2;
+    clear: left; 
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    
+}
+
+.concepto2  {
+    width: 70%;
+       
+}
+
+.conceptos2 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    
+    
+}
+.conceptos3 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;    
+
+}
+
+/* paginas vocabulario */
+.conceptos4 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;    
+
+}
+/* paginas historia y evolucion */
+.evolucion {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content:center;
+  }
+
+.evo {
+    width: 70%;
+    height: 250px;
+}
+
+/* paginas Interfaz */
+.interfaz {
+    position: relative;
+    z-index: 2; 
+}
+
+/* paginas uso basico del excel */
+
+.copi_pega  div {
+    position: relative;
+    z-index: 2; 
+   background-color: #D0CFC3;
+   width: 100%;
+   background-position: center center;
+
+   
+   
+}
+
+.uso_basi1 {
+    color: rgb(255, 255, 255);
+    background-color: #56AF87;
+    width: 900px;
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    
+}
+.uso_basico1 {
+    display: flex;
+    justify-content: center;
+}
+
+.uso_basi2 {
+    clear: left; 
+    display: flex;
+    justify-content: center;
+    opacity: .9;
+}
+
+
+
+
+/* paginas uso basico del mouse */
+
+.mouse1 {
+    background-color:rgb(100, 180, 140);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.mouse2 {
+    
+    background-color:rgb(35, 153, 94);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+.mouses0{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    color: aliceblue;
+    text-align: justify;
+    
+
+}
+.pmou {
+    font: condensed 120% sans-serif;
+    color: black;
+    font-family: cursive;
+}
+
+.mouses1{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    color: aliceblue;
+    
+
+}
+.mougif {
+    width: 65%;
+}
+
+.puntero {
+    width: 130px;
+}
+.puntero1 {
+    width: 130px;
+    height: 60px;
+    
+}
+
+
+/* paginas uso basico del teclado*/
+.teclado1 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.teclado2{
+    position: relative;
+    z-index: 2;
+   display: flex;
+    justify-content: center;
+    
+    
+}
+
+.teclado3 {
+    width: 70%;
+}
+
+
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #eff1f1;
+    text-align: center;
+  }
+  .container {
+    max-width: 50%; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 10px; /* Agrega un borde al contenedor */
+         /* Agrega bordes redondeados al contenedor */
+    border: dotted rgb(247, 245, 245);
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    color: aliceblue;
+  }
+  .form-group {
+    margin-bottom:15px; /* Espacio entre cada input */
+
+  }
+  label {
+    margin-bottom: 15px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    width: 600px; /* Define el ancho máximo del input */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    /* Coloca estilos a tu botón */
+    padding-left: 10px  
+    
+}
+
+  button:hover {
+    background-color: #0f7060;
+  }
+  .seccion-formulario {
+  background-image: url(img/formulario\ fondo.jpg);
+  
+  }
+/* pagina grafico */
+  .graficos1 {
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .graficos2 {
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .grafico {
+    width: 33%;
+  }
+
+/* pagina formato condicional */
+  
+  .formato { 
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* pagina validacion de datos */
+  .validacion { 
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+
+   /* pagina funciones */
+
+   .funcion {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+   }
+
+   .func {
+    width: 70%;
+      }
+
+       
+       .func1 {
+        justify-content: left;
+        position: relative;
+        z-index: 2;
+        width: 25%;        
+        border: solid 3px;
+        border-radius: 5px 5px 5px 5px;
+        border-color: chartreuse;
+        margin: 5px 10px 5px 130px ;
+       }
+
+       .func2 {
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        width: 25%;
+        border: solid 3px;
+        border-radius: 5px 5px 5px 5px;
+        border-color: chartreuse;
+        margin: 5px 10px 5px 5px ;
+       }
+
+       
+
+       .func3 {
+        justify-content: end;
+        position: relative;
+        z-index: 2;
+        width: 25%;        
+        border: solid 3px;
+        border-radius: 5px 5px 5px 5px;
+        border-color: chartreuse;
+        margin: 10px 5px 5px 5px ;
+       }
