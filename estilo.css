@@ -417,6 +417,8 @@ display: block;
   }
   .seccion-formulario {
   background-image: url(img/formulario\ fondo.jpg);
+  position: relative;
+  z-index: 2;
   
   }
 /* pagina grafico */
